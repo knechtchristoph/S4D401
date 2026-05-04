@@ -18,22 +18,22 @@ CLASS zcl_1_joins IMPLEMENTATION.
 **********************************************************************
 * Example: Inner Join of Carrier and Connection                      *
 **********************************************************************
-*    SELECT
-*            FROM /dmo/carrier
-*      INNER JOIN /dmo/connection
-*              ON /dmo/carrier~carrier_id = /dmo/connection~carrier_id
-*
-*      FIELDS /dmo/carrier~carrier_id,
-*             /dmo/carrier~name                AS carrier_name,
-*             /dmo/connection~connection_id,
-*             /dmo/connection~airport_from_id,
-*             /dmo/connection~airport_to_id
-*
-*      WHERE /dmo/carrier~currency_code = 'EUR'
-*
-*      INTO TABLE @DATA(result).
-*
-*    out->write( result ).
+    SELECT
+            FROM /dmo/carrier
+      INNER JOIN /dmo/connection
+              ON /dmo/carrier~carrier_id = /dmo/connection~carrier_id
+
+      FIELDS /dmo/carrier~carrier_id,
+             /dmo/carrier~name                AS carrier_name,
+             /dmo/connection~connection_id,
+             /dmo/connection~airport_from_id,
+             /dmo/connection~airport_to_id
+
+      WHERE /dmo/carrier~currency_code = 'EUR'
+
+      INTO TABLE @DATA(result).
+
+    out->write( result ).
 
 
 **********************************************************************
@@ -58,7 +58,7 @@ CLASS zcl_1_joins IMPLEMENTATION.
 
 
 ***********************************************************************
-** Syntax Variant 2: Aliases for Data Source Names                    *
+* Syntax Variant 2: Aliases for Data Source Names                     *
 ***********************************************************************
 *    SELECT
 *            FROM /dmo/carrier    AS a
