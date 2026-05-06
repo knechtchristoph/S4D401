@@ -94,7 +94,6 @@ CLASS zcl_2_expressions IMPLEMENTATION.
 *    out->write( result ).
 
 
-
   ENDMETHOD.
 
 ENDCLASS.
