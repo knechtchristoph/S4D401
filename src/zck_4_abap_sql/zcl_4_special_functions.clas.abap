@@ -49,10 +49,13 @@ CLASS zcl_4_special_functions IMPLEMENTATION.
 *
 *          tstmp_to_dats( tstmp = CAST( lastchangedat AS DEC( 15,0 ) ),
 *                         tzone = CAST( 'EST' AS CHAR( 6 ) )
+**                        tzone = CHAR`EST   `
+**                        "typisiertes Literal in ABAP SQL: <built-in Dictionary type>`...`
 *                       ) AS date_est,
 *
 *          tstmp_to_tims( tstmp = CAST( lastchangedat AS DEC( 15,0 ) ),
 *                         tzone = CAST( 'EST' AS CHAR( 6 ) )
+**                        tzone = CHAR`EST   `
 *                       ) AS time_est
 *
 *       WHERE days_between( begin_date, end_date ) > 10
@@ -70,10 +73,10 @@ CLASS zcl_4_special_functions IMPLEMENTATION.
 *          distance,
 *          distance_unit,
 *          unit_conversion(
-*             quantity = CAST( distance AS QUAN ),
+*             quantity    = CAST( distance AS QUAN ),
 *             source_unit = distance_unit,
 *             target_unit = CAST( 'MI' AS UNIT )
-**             target_unit = UNIT`MI`
+**            target_unit = UNIT`MI`
 *                         ) AS distance_MI
 *       INTO TABLE @DATA(result).
 *
