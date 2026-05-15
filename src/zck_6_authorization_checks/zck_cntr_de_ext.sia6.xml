@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SIA6" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <SIA6>
+    <MAIN_OBJECT>
+     <NAME>ZCK_CNTR_DE_EXT</NAME>
+     <TYPE>SIA6</TYPE>
+     <DESCRIPTION>Authorizations Country DE</DESCRIPTION>
+     <RESPONSIBLE>CB9980000001</RESPONSIBLE>
+     <MASTER_LANGUAGE>EN</MASTER_LANGUAGE>
+     <MASTER_SYSTEM>H02</MASTER_SYSTEM>
+     <PACKAGE_REF>
+      <PACKAGE_NAME>ZCK_6_AUTHORIZATION_CHECKS</PACKAGE_NAME>
+     </PACKAGE_REF>
+     <ABAP_LANGU_VERSION>5</ABAP_LANGU_VERSION>
+    </MAIN_OBJECT>
+    <APP_ID>ZCK_CNTR_DE_EXT</APP_ID>
+    <APP_TYPE>EXT</APP_TYPE>
+    <ABAP_LANGUAGE_VERSION>5</ABAP_LANGUAGE_VERSION>
+    <AUTH>
+     <item>
+      <AUTH_OBJECT>ZCK_TRVL</AUTH_OBJECT>
+      <STATUS>U</STATUS>
+      <TEXT>Travel Scenario</TEXT>
+      <AUTH_ITEM>
+       <item>
+        <UUID>JvaoNr9iH9GT3MNakUlhWw==</UUID>
+        <AUTH_OBJECT>ZCK_TRVL</AUTH_OBJECT>
+        <AUTH_OBJECT_INSTANCE>0001</AUTH_OBJECT_INSTANCE>
+        <TEXT>Travel Scenario</TEXT>
+        <STATUS>U</STATUS>
+        <VALUES>
+         <item>
+          <FIELD>ACTVT</FIELD>
+          <VALUE>Create or generate,Delete,Display,Change</VALUE>
+          <VALUES>
+           <item>
+            <UUID>JvaoNr9iH9GT3MNakUmBWw==</UUID>
+            <LOW_VALUE>01</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>JvaoNr9iH9GT3MNakUnhWw==</UUID>
+            <LOW_VALUE>06</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>JvaoNr9iH9GT3MNakUnBWw==</UUID>
+            <LOW_VALUE>03</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>JvaoNr9iH9GT3MNakUmhWw==</UUID>
+            <LOW_VALUE>02</LOW_VALUE>
+           </item>
+          </VALUES>
+          <TEXT>Activity</TEXT>
+          <STATUS>U</STATUS>
+          <IS_ACTVT>X</IS_ACTVT>
+         </item>
+         <item>
+          <FIELD>ZCK_CNTR</FIELD>
+          <VALUE>DE</VALUE>
+          <VALUES>
+           <item>
+            <UUID>JvaoNr9iH9GT3MNakUoBWw==</UUID>
+            <LOW_VALUE>DE</LOW_VALUE>
+           </item>
+          </VALUES>
+          <TEXT>Country/Region Key</TEXT>
+          <STATUS>U</STATUS>
+         </item>
+        </VALUES>
+       </item>
+      </AUTH_ITEM>
+     </item>
+    </AUTH>
+    <PUBLISH_STATUS>p</PUBLISH_STATUS>
+   </SIA6>
+  </asx:values>
+ </asx:abap>
+</abapGit>
