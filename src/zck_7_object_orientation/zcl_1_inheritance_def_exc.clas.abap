@@ -1,4 +1,4 @@
- CLASS zcl_1_auth_check_exc DEFINITION
+ CLASS zcl_1_inheritance_def_exc DEFINITION
   PUBLIC
   FINAL
   CREATE PUBLIC .
@@ -12,7 +12,7 @@
 
 
 
- CLASS zcl_1_auth_check_exc IMPLEMENTATION.
+ CLASS zcl_1_inheritance_def_exc IMPLEMENTATION.
 
    METHOD if_oo_adt_classrun~main.
 

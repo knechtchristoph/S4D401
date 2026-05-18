@@ -12,7 +12,8 @@ ENDCLASS.
 
 
 
-CLASS zcl_3_sql_trace IMPLEMENTATION.
+CLASS ZCL_3_SQL_TRACE IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
 
@@ -79,5 +80,4 @@ CLASS zcl_3_sql_trace IMPLEMENTATION.
     ENDIF.
 
   ENDMETHOD.
-
 ENDCLASS.

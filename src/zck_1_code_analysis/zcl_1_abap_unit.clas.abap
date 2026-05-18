@@ -12,7 +12,8 @@ ENDCLASS.
 
 
 
-CLASS zcl_1_abap_unit IMPLEMENTATION.
+CLASS ZCL_1_ABAP_UNIT IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
 
@@ -79,5 +80,4 @@ CLASS zcl_1_abap_unit IMPLEMENTATION.
     ENDIF.
 
   ENDMETHOD.
-
 ENDCLASS.

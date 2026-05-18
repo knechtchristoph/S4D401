@@ -11,7 +11,9 @@
 ENDCLASS.
 
 
-CLASS zcl_4_secondary_keys_exc IMPLEMENTATION.
+
+CLASS ZCL_4_SECONDARY_KEYS_EXC IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
 
@@ -78,5 +80,4 @@ CLASS zcl_4_secondary_keys_exc IMPLEMENTATION.
     ENDIF.
 
   ENDMETHOD.
-
 ENDCLASS.

@@ -16,7 +16,9 @@ CLASS zcl_3_table_kind DEFINITION
 ENDCLASS.
 
 
-CLASS zcl_3_table_kind IMPLEMENTATION.
+
+CLASS ZCL_3_TABLE_KIND IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
 **********************************************************************
@@ -87,6 +89,17 @@ CLASS zcl_3_table_kind IMPLEMENTATION.
   ENDMETHOD.
 
 
+  METHOD airlines_as_hashed_table.
+    r_airlines = VALUE #(
+                          ( carrier_id = 'JL'  carrier_name = 'Japan Airlines' )
+                          ( carrier_id = 'AA'  carrier_name = 'American Airlines' )
+                          ( carrier_id = 'LH'  carrier_name = 'Deutsche Lufthansa' )
+                          ( carrier_id = 'QF'  carrier_name = 'Qantas' )
+                          ( carrier_id = 'SQ'  carrier_name = 'Singapore Airlines' )
+                        ).
+  ENDMETHOD.
+
+
   METHOD connections_as_hashed_table.
     r_connections = VALUE #(
                              ( carrier_id = 'AA' connection_id = '0017' airport_from_id = 'MIA' airport_to_id = 'HAV' )
@@ -114,6 +127,7 @@ CLASS zcl_3_table_kind IMPLEMENTATION.
                            ).
   ENDMETHOD.
 
+
   METHOD connections_as_standard_table.
     r_connections = VALUE #(
                              ( carrier_id = 'AA' connection_id = '0017' airport_from_id = 'MIA' airport_to_id = 'HAV' )
@@ -126,15 +140,4 @@ CLASS zcl_3_table_kind IMPLEMENTATION.
                              ( carrier_id = 'SQ' connection_id = '0002' airport_from_id = 'JFK' airport_to_id = 'SIN' )
                            ).
   ENDMETHOD.
-
-  METHOD airlines_as_hashed_table.
-    r_airlines = VALUE #(
-                          ( carrier_id = 'JL'  carrier_name = 'Japan Airlines' )
-                          ( carrier_id = 'AA'  carrier_name = 'American Airlines' )
-                          ( carrier_id = 'LH'  carrier_name = 'Deutsche Lufthansa' )
-                          ( carrier_id = 'QF'  carrier_name = 'Qantas' )
-                          ( carrier_id = 'SQ'  carrier_name = 'Singapore Airlines' )
-                        ).
-  ENDMETHOD.
-
 ENDCLASS.

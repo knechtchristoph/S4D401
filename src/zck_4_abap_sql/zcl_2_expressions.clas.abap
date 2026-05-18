@@ -11,7 +11,9 @@ CLASS zcl_2_expressions DEFINITION
 ENDCLASS.
 
 
-CLASS zcl_2_expressions IMPLEMENTATION.
+
+CLASS ZCL_2_EXPRESSIONS IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
 **********************************************************************
@@ -95,5 +97,4 @@ CLASS zcl_2_expressions IMPLEMENTATION.
 
 
   ENDMETHOD.
-
 ENDCLASS.

@@ -11,7 +11,9 @@ CLASS zcl_3_table_kind_exc DEFINITION
 ENDCLASS.
 
 
-CLASS zcl_3_table_kind_exc IMPLEMENTATION.
+
+CLASS ZCL_3_TABLE_KIND_EXC IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
 
@@ -78,5 +80,4 @@ CLASS zcl_3_table_kind_exc IMPLEMENTATION.
     ENDIF.
 
   ENDMETHOD.
-
 ENDCLASS.

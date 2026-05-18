@@ -11,7 +11,9 @@ CLASS zcl_1_joins_exc DEFINITION
 ENDCLASS.
 
 
-CLASS zcl_1_joins_exc IMPLEMENTATION.
+
+CLASS ZCL_1_JOINS_EXC IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
 
@@ -78,5 +80,4 @@ CLASS zcl_1_joins_exc IMPLEMENTATION.
     ENDIF.
 
   ENDMETHOD.
-
 ENDCLASS.

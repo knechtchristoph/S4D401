@@ -16,7 +16,8 @@ ENDCLASS.
 
 
 
-CLASS zcl_1_content_processing IMPLEMENTATION.
+CLASS ZCL_1_CONTENT_PROCESSING IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
 **********************************************************************
@@ -182,6 +183,7 @@ CLASS zcl_1_content_processing IMPLEMENTATION.
                         ).
   ENDMETHOD.
 
+
   METHOD get_airports.
     r_airports = VALUE #(
                           ( airport_id = 'SFO' name = 'San Francisco International Airport'   city = 'San Francisco' country = 'US' )
@@ -190,6 +192,7 @@ CLASS zcl_1_content_processing IMPLEMENTATION.
                         ).
   ENDMETHOD.
 
+
   METHOD get_connections.
     r_connections = VALUE #(
                           ( carrier_id = 'SQ' connection_id = '0001' airport_from_id = 'SFO' airport_to_id = 'SIN' carrier_name = 'Singapore Airlines Limited' )
@@ -197,6 +200,7 @@ CLASS zcl_1_content_processing IMPLEMENTATION.
                           ( carrier_id = 'LH' connection_id = '0401' airport_from_id = 'JFK' airport_to_id = 'FRA' carrier_name = 'Deutsche Lufthansa AG' )
                            ).
   ENDMETHOD.
+
 
   METHOD get_flights.
     r_flights = VALUE #(
@@ -207,5 +211,4 @@ CLASS zcl_1_content_processing IMPLEMENTATION.
                           ( carrier_id = 'JL' connection_id = '0408' flight_date = '20230115' seats_max = 220 seats_occupied = 192 )
                        ).
   ENDMETHOD.
-
 ENDCLASS.

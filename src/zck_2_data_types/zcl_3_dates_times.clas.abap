@@ -12,7 +12,8 @@ ENDCLASS.
 
 
 
-CLASS zcl_3_dates_times IMPLEMENTATION.
+CLASS ZCL_3_DATES_TIMES IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
 

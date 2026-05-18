@@ -11,7 +11,9 @@ CLASS zcl_5_sorting_aggregating DEFINITION
 ENDCLASS.
 
 
-CLASS zcl_5_sorting_aggregating IMPLEMENTATION.
+
+CLASS ZCL_5_SORTING_AGGREGATING IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
 **********************************************************************
@@ -129,5 +131,4 @@ CLASS zcl_5_sorting_aggregating IMPLEMENTATION.
 
 
   ENDMETHOD.
-
 ENDCLASS.

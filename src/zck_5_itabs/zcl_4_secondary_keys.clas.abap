@@ -19,7 +19,9 @@ CLASS zcl_4_secondary_keys DEFINITION
 ENDCLASS.
 
 
-CLASS zcl_4_secondary_keys IMPLEMENTATION.
+
+CLASS ZCL_4_SECONDARY_KEYS IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
 **********************************************************************
@@ -56,5 +58,4 @@ CLASS zcl_4_secondary_keys IMPLEMENTATION.
 
 
   ENDMETHOD.
-
 ENDCLASS.

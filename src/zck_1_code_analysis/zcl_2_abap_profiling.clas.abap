@@ -12,7 +12,8 @@ ENDCLASS.
 
 
 
-CLASS zcl_2_abap_profiling IMPLEMENTATION.
+CLASS ZCL_2_ABAP_PROFILING IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
 
@@ -79,5 +80,4 @@ CLASS zcl_2_abap_profiling IMPLEMENTATION.
     ENDIF.
 
   ENDMETHOD.
-
 ENDCLASS.

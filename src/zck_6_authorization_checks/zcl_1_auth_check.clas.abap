@@ -11,7 +11,9 @@ CLASS zcl_1_auth_check DEFINITION
 ENDCLASS.
 
 
-CLASS zcl_1_auth_check IMPLEMENTATION.
+
+CLASS ZCL_1_AUTH_CHECK IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
 
@@ -70,5 +72,4 @@ CLASS zcl_1_auth_check IMPLEMENTATION.
 
 
   ENDMETHOD.
-
 ENDCLASS.

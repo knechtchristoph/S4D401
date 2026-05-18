@@ -11,7 +11,9 @@ CLASS zcl_2_field_symbols DEFINITION
 ENDCLASS.
 
 
-CLASS zcl_2_field_symbols IMPLEMENTATION.
+
+CLASS ZCL_2_FIELD_SYMBOLS IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
 **********************************************************************
@@ -66,5 +68,4 @@ CLASS zcl_2_field_symbols IMPLEMENTATION.
 
 
   ENDMETHOD.
-
 ENDCLASS.

@@ -12,7 +12,8 @@ ENDCLASS.
 
 
 
-CLASS zcl_1_joins IMPLEMENTATION.
+CLASS ZCL_1_JOINS IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
 **********************************************************************
@@ -210,5 +211,4 @@ CLASS zcl_1_joins IMPLEMENTATION.
 
 
   ENDMETHOD.
-
 ENDCLASS.

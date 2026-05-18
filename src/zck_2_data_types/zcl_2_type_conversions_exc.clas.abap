@@ -12,7 +12,8 @@ ENDCLASS.
 
 
 
-CLASS zcl_2_type_conversions_exc IMPLEMENTATION.
+CLASS ZCL_2_TYPE_CONVERSIONS_EXC IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
 
@@ -79,5 +80,4 @@ CLASS zcl_2_type_conversions_exc IMPLEMENTATION.
     ENDIF.
 
   ENDMETHOD.
-
 ENDCLASS.
