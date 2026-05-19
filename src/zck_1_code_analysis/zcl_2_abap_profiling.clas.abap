@@ -11,9 +11,7 @@ CLASS zcl_2_abap_profiling DEFINITION
 ENDCLASS.
 
 
-
-CLASS ZCL_2_ABAP_PROFILING IMPLEMENTATION.
-
+CLASS zcl_2_abap_profiling IMPLEMENTATION.
 
   METHOD if_oo_adt_classrun~main.
 

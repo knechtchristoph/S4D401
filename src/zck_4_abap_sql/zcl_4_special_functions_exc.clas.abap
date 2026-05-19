@@ -11,9 +11,7 @@ CLASS zcl_4_special_functions_exc DEFINITION
 ENDCLASS.
 
 
-
-CLASS ZCL_4_SPECIAL_FUNCTIONS_EXC IMPLEMENTATION.
-
+CLASS zcl_4_special_functions_exc IMPLEMENTATION.
 
   METHOD if_oo_adt_classrun~main.
 

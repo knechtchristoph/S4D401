@@ -11,9 +11,7 @@ CLASS zcl_3_data_processing_exc DEFINITION
 ENDCLASS.
 
 
-
-CLASS ZCL_3_DATA_PROCESSING_EXC IMPLEMENTATION.
-
+CLASS zcl_3_data_processing_exc IMPLEMENTATION.
 
   METHOD if_oo_adt_classrun~main.
 

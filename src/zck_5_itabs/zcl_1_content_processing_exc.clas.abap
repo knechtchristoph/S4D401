@@ -11,9 +11,7 @@ CLASS zcl_1_content_processing_exc DEFINITION
 ENDCLASS.
 
 
-
-CLASS ZCL_1_CONTENT_PROCESSING_EXC IMPLEMENTATION.
-
+CLASS zcl_1_content_processing_exc IMPLEMENTATION.
 
   METHOD if_oo_adt_classrun~main.
 

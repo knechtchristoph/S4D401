@@ -11,9 +11,7 @@ CLASS zcl_3_data_processing DEFINITION
 ENDCLASS.
 
 
-
-CLASS ZCL_3_DATA_PROCESSING IMPLEMENTATION.
-
+CLASS zcl_3_data_processing IMPLEMENTATION.
 
   METHOD if_oo_adt_classrun~main.
 **********************************************************************

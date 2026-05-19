@@ -11,9 +11,7 @@ CLASS zcl_1_types DEFINITION
 ENDCLASS.
 
 
-
-CLASS ZCL_1_TYPES IMPLEMENTATION.
-
+CLASS zcl_1_types IMPLEMENTATION.
 
   METHOD if_oo_adt_classrun~main.
 

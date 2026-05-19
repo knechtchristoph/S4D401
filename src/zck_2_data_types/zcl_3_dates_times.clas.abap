@@ -11,9 +11,7 @@ CLASS zcl_3_dates_times DEFINITION
 ENDCLASS.
 
 
-
-CLASS ZCL_3_DATES_TIMES IMPLEMENTATION.
-
+CLASS zcl_3_dates_times IMPLEMENTATION.
 
   METHOD if_oo_adt_classrun~main.
 

@@ -11,9 +11,7 @@ CLASS zcl_2_type_conversions_exc DEFINITION
 ENDCLASS.
 
 
-
-CLASS ZCL_2_TYPE_CONVERSIONS_EXC IMPLEMENTATION.
-
+CLASS zcl_2_type_conversions_exc IMPLEMENTATION.
 
   METHOD if_oo_adt_classrun~main.
 

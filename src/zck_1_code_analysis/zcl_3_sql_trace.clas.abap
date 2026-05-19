@@ -11,9 +11,7 @@ CLASS zcl_3_sql_trace DEFINITION
 ENDCLASS.
 
 
-
-CLASS ZCL_3_SQL_TRACE IMPLEMENTATION.
-
+CLASS zcl_3_sql_trace IMPLEMENTATION.
 
   METHOD if_oo_adt_classrun~main.
 

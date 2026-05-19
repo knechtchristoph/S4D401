@@ -11,7 +11,6 @@
  ENDCLASS.
 
 
-
  CLASS zcl_1_auth_check_exc IMPLEMENTATION.
 
    METHOD if_oo_adt_classrun~main.

@@ -11,9 +11,7 @@ CLASS zcl_1_abap_unit DEFINITION
 ENDCLASS.
 
 
-
-CLASS ZCL_1_ABAP_UNIT IMPLEMENTATION.
-
+CLASS zcl_1_abap_unit IMPLEMENTATION.
 
   METHOD if_oo_adt_classrun~main.
 

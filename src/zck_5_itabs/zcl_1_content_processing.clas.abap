@@ -15,9 +15,7 @@ CLASS zcl_1_content_processing DEFINITION
 ENDCLASS.
 
 
-
-CLASS ZCL_1_CONTENT_PROCESSING IMPLEMENTATION.
-
+CLASS zcl_1_content_processing IMPLEMENTATION.
 
   METHOD if_oo_adt_classrun~main.
 **********************************************************************

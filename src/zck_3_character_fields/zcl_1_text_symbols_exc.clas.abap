@@ -11,9 +11,7 @@ CLASS zcl_1_text_symbols_exc DEFINITION
 ENDCLASS.
 
 
-
-CLASS ZCL_1_TEXT_SYMBOLS_EXC IMPLEMENTATION.
-
+CLASS zcl_1_text_symbols_exc IMPLEMENTATION.
 
   METHOD if_oo_adt_classrun~main.
 

@@ -11,9 +11,7 @@ CLASS zcl_2_string_processing DEFINITION
 ENDCLASS.
 
 
-
-CLASS ZCL_2_STRING_PROCESSING IMPLEMENTATION.
-
+CLASS zcl_2_string_processing IMPLEMENTATION.
 
   METHOD if_oo_adt_classrun~main.
 **********************************************************************

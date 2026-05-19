@@ -11,9 +11,7 @@ CLASS zcl_2_field_symbols_exc DEFINITION
 ENDCLASS.
 
 
-
-CLASS ZCL_2_FIELD_SYMBOLS_EXC IMPLEMENTATION.
-
+CLASS zcl_2_field_symbols_exc IMPLEMENTATION.
 
   METHOD if_oo_adt_classrun~main.
 

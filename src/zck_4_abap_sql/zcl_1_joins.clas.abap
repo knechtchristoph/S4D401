@@ -11,9 +11,7 @@ CLASS zcl_1_joins DEFINITION
 ENDCLASS.
 
 
-
-CLASS ZCL_1_JOINS IMPLEMENTATION.
-
+CLASS zcl_1_joins IMPLEMENTATION.
 
   METHOD if_oo_adt_classrun~main.
 **********************************************************************
