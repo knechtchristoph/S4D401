@@ -15,6 +15,7 @@ CLASS zcl_1_inheritance_def IMPLEMENTATION.
 
   METHOD if_oo_adt_classrun~main.
 
+
   ENDMETHOD.
 
 ENDCLASS.
