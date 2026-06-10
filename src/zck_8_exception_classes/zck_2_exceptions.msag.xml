@@ -3,16 +3,16 @@
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
    <T100A>
-    <ARBGB>ZCK_1_MESSAGES</ARBGB>
+    <ARBGB>ZCK_2_EXCEPTIONS</ARBGB>
     <MASTERLANG>E</MASTERLANG>
-    <STEXT>Message for Demo</STEXT>
+    <STEXT>Message for Exception Class</STEXT>
    </T100A>
    <T100>
     <T100>
      <SPRSL>E</SPRSL>
-     <ARBGB>ZCK_1_MESSAGES</ARBGB>
-     <MSGNR>010</MSGNR>
-     <TEXT>Value &amp;1 is invalid</TEXT>
+     <ARBGB>ZCK_2_EXCEPTIONS</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Connection &amp;1 &amp;2 does not exist</TEXT>
     </T100>
    </T100>
   </asx:values>
