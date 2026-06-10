@@ -97,7 +97,7 @@ CLASS zcl_1_exception_handling IMPLEMENTATION.
 **********************************************************************
 * Propagating Exceptions / The Attribute "previous"                  *
 **********************************************************************
-    data(demo) = new lcl_demo( ).
+    DATA(demo) = NEW lcl_demo( ).
     demo->meth1( ).
 
 
