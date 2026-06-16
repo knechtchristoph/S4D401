@@ -1,3 +1,4 @@
+"! <p class="shorttext synchronized" lang="en">Documenting ABAP Code</p>
 CLASS zcl_1_abap_doc DEFINITION
   PUBLIC
   FINAL
