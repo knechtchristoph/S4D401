@@ -1,4 +1,4 @@
-*"* use this source file for your ABAP unit test classes^
+*"* use this source file for your ABAP unit test classes
 CLASS ltcl_find_flights DEFINITION FINAL FOR TESTING
   DURATION MEDIUM
   RISK LEVEL HARMLESS.
@@ -11,11 +11,9 @@ CLASS ltcl_find_flights DEFINITION FINAL FOR TESTING
 *    CLASS-DATA some_flight_data TYPE /lrn/cargoflight.
 ENDCLASS.
 
-
 CLASS ltcl_find_flights IMPLEMENTATION.
 
   METHOD test_find_cargo_flight.
-
     SELECT SINGLE
        FROM /lrn/cargoflight
        FIELDS carrier_id, connection_id, flight_date,
@@ -54,11 +52,7 @@ CLASS ltcl_find_flights IMPLEMENTATION.
        exp = 0
        msg              = `Method find_cargo_flight returns wrong result`
    ).
-
-
   ENDMETHOD.
-
-
 
 *  METHOD class_setup.
 *    SELECT SINGLE

@@ -1,4 +1,4 @@
-*"* use this source file for your ABAP unit test classes^
+*"* use this source file for your ABAP unit test classes
 CLASS ltcl_find_flights DEFINITION FINAL FOR TESTING
   DURATION MEDIUM
   RISK LEVEL HARMLESS.
