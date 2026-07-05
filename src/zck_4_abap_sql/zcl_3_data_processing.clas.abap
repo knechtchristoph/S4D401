@@ -49,7 +49,7 @@ CLASS zcl_3_data_processing IMPLEMENTATION.
 *
 *      division( seats_occupied * 100, seats_max, 2 ) AS percentage_dec
 *
-*     INT O TABLE @DATA(result).
+*     INTO TABLE @DATA(result).
 *
 *    out->write( result ).
 

@@ -88,13 +88,13 @@ CLASS zcl_2_type_conversions IMPLEMENTATION.
 **********************************************************************
 * Forcing Type Conversions Explicitly                                *
 **********************************************************************
-* result1 has type C
-* and is displayed unformatted in the console
+** result1 has type c
+** and is displayed unformatted in the console
 *    DATA(result1) = '20230101'.
 *    out->write( result1 ).
-
-* result2 is forced to have type D
-* and is displayed with date formatting in the console
+*
+** result2 is forced to have type d
+** and is displayed with date formatting in the console
 *    DATA(result2) = CONV d( '20230101' ).
 *    out->write( result2 ).
 
